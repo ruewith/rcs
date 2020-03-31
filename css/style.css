@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.list-close {
+    display: none;
+}
