@@ -14,7 +14,6 @@ request.onload = function() {
     let titles = document.querySelectorAll(".title");
     titles.forEach(item => {
         item.addEventListener("click", function() {
-            console.log(this);
             this.nextElementSibling.classList.toggle("list-close");
         });
     });
